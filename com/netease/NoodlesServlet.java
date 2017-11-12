@@ -21,6 +21,8 @@ public class NoodlesServlet extends HttpServlet {
 
         writer.println("<html><body>");
         writer.println("<h1> Noodles with " + vegetable + "</h1>"); 
+		writer.println("<h2> Best Wishes </h1>"); 
         writer.println("</body></html>");
+		
     }
 }
